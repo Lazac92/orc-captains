@@ -41,7 +41,7 @@ export default {
   ],
 
   publicRuntimeConfig: {
-    baseImageURL: process.env.BASE_IMAGE_URL,
+    baseImageURL: process.env.BASE_IMAGE_URL || 'http://localhost:1337',
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
