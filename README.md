@@ -54,4 +54,4 @@ After logging in, you can:
 
 After opening it, the list of the `Captains` will appear.
 
-You can add one of the page URLs to the end of the address to reach a subpage (ie: http://localhost:3000/second-page). 
+You can add one of the page URLs to the end of the address to reach a subpage (ie: http://localhost:3000/ratbag). 
