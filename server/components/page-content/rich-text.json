@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_page_content_rich_texts",
+  "info": {
+    "name": "richText",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "richText": {
+      "type": "richtext"
+    }
+  }
+}

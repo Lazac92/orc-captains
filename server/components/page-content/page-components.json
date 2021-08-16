@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_page_content_page_components",
+  "info": {
+    "name": "pageComponents",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "shortText": {
+      "type": "string"
+    }
+  }
+}

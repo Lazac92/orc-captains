@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_page_content_short_texts",
+  "info": {
+    "name": "shortText",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_content_single_images",
+  "info": {
+    "name": "singleImage",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

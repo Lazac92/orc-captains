@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_page_content_texts",
+  "info": {
+    "name": "text",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "richText": {
+      "type": "richtext"
+    }
+  }
+}
