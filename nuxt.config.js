@@ -28,6 +28,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    '~/plugins/mixins/global.js'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -39,9 +40,17 @@ export default {
     '@nuxtjs/vuetify',
   ],
 
+  publicRuntimeConfig: {
+    baseImageURL: process.env.BASE_IMAGE_URL,
+  },
+
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/axios',
   ],
+  axios: {
+    baseURL: 'http://localhost:1337/'
+  },
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
