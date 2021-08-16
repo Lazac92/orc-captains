@@ -2,7 +2,8 @@
   "collectionName": "components_page_content_single_images",
   "info": {
     "name": "singleImage",
-    "icon": "address-book"
+    "icon": "address-book",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,12 +11,12 @@
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
         "files",
+        "images",
         "videos"
       ],
       "plugin": "upload",
-      "required": false,
+      "required": true,
       "pluginOptions": {}
     }
   }
