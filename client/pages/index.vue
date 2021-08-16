@@ -3,7 +3,7 @@
     <v-col md="10">
       <v-card class="mx-auto">
         <v-container fluid>
-          <v-row dense>
+          <v-row dense v-if="captains">
             <v-col
               v-for="captain in captains"
               :key="captain.title"

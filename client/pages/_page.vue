@@ -18,6 +18,8 @@
   export default {
     async asyncData({params, $axios, redirect}) {
       const page = await $axios.$get('pages?url=' + params.page)
+        .catch(() => redirect('/'));
+
       if(!page[0]) {
         redirect('/');
       }
